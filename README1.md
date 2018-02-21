@@ -1,8 +1,8 @@
 # orderAPI
 Here is some general information about the project structure:
 
-1) The specific route for API is: POST        /order                   controllers.OrderApi.placeOrder
-This is added to the routes file.
+1) The specific route for API is: POST        /order                   controllers.OrderApi.placeOrder. 
+This route has been added to the routes file.
 
 2) The route redirects to the OrderApi.placeOrder controller that validates the request. If the request is valid then it calls the orderService.placeOrder method.
 
